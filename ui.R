@@ -39,7 +39,7 @@ shinyUI(fluidPage(
     
     # Show the plots, linear, standard methods
     mainPanel(
-		h5("The graph below shows the current network traffic on this system mapped across the date. "),	
+		h5("The graphs below show the current network detection levels. The top is Standard Deviation based, where the bottom is Linear Regression. "),	
       plotOutput("distPlot"),
       plotOutput("linearPlot")
     )
